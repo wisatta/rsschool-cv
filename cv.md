@@ -9,17 +9,16 @@
 
 ## Briefly About Myself
 Hi, I am 21 years old.  
-I have graduated from Francisk Skorina University this year. 
+I have graduated from Francisk Skorina University in 2021. 
 So, I am an economist, but I've been always interested in 
 IT.
 
 ---
 
-By the way, I studied the basics of web design, took business analysis courses at GSU and studied at the accelerator ITSila.com *"Software Tester".*
 My free time I spend learning Front-end Development.
 I’m really interested in Web Development because this occupation provides endless possibilities for professional growth.
-
-My goal is to gain knowledge in the field of Front-end development.
+So, I am hardworking, persistent and I always try to do all my best to achieve good results. 
+Besides, I fond of photography, travelling, stretching and reading books :)
 
 ## Skills
 * HTML
@@ -33,14 +32,22 @@ My goal is to gain knowledge in the field of Front-end development.
 * Selenium IDE
 
 ## Code Example
-*Вывести в консоль с помощью цикла FOR все четные числа от 10 до 50*
+*Will you make it?*
 
 ```
-for (let i = 10; i <= 50; i += 2) 
-{ 
-   console.log(i); 
-} 
+const zeroFuel = 
+(distanceToPump, mpg, fuelLeft) => 
+fuelLeft * mpg >= distanceToPump 
+? true 
+: false;
 ```
+
+## Projects
+- [Portfolio](https://wisatta.github.io/portfolio/ "Portfolio")  
+- [Gallery](https://wisatta.github.io/gallery/ "Gallery")  
+- [Music Player](https://wisatta.github.io/music-player/ "Player")  
+- [Tic Tac Toe](https://wisatta.github.io/tic-tac-toe/ "TicTacToe")  
+
 ## Education
 * Francisk Skorina Gomel State University
   - World Economy
@@ -50,7 +57,7 @@ for (let i = 10; i <= 50; i += 2)
   - **WayUp**
       - HTML/CSS coder: basics
       - Javascript: basics
-* **RS Schools Course** «JavaScript/Front-end. Stage 0» *(in progress)*
+* **RS School** [«JavaScript/Front-end. Stage 0»](https://app.rs.school/certificate/mja188a8 "RSSchool")  
 
 ## Languages
 * Russian - native
