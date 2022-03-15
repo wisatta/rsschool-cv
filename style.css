@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    flex: 1 1 auto;
+    padding: 15px;
+    margin-left: 125px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link, .text {
+    padding: 0 15px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(57, 40, 81);
+    transition: all 0.5s ease-out;
+} 
+
+.nav-link:hover {
+    color: white;
+}
+
+header, footer {
+    background-color: rgb(211, 177, 234);
+}
+
+.section-title {
+    letter-spacing: 1.5px;
+    color: rgb(57, 40, 81);
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 11px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.dev {
+    letter-spacing: 3px;
+}
+
+.image {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+ul {
+    list-style-type: square;
+}
+
+span {
+    color: black;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+    color: rgb(57, 40, 81);
+}
+
+a:hover {
+    font-weight: 700;
+}
+
+.eng, .rss {
+    color: rgb(57, 40, 81);
+    font-weight: 700;
+    transition: color 0.5s ease-out;
+}
+
+.eng:hover {
+    color: rgb(211, 177, 234);
+    font-size: 20px;
+}
+
+.rss:hover {
+    color: rgb(211, 177, 234);
+    font-size: 18px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.text:hover {
+    color: white;
+    font-weight: 700;
+}
+
+.git:hover {
+    color: rgb(211, 177, 234);
+    font-size: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 800px) {
+    .section {
+      width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .main {
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 680px) {
+    .main {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .main {
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+}
